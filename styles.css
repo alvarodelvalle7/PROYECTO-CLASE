@@ -91,7 +91,12 @@ main section{
     place-items: center;
     grid-template-columns: 2fr 1fr;
     overflow: hidden;
-    animation: invisible ease-in 1.5s;
+    cursor: pointer;
+    animation: invisible ease-in 1s;
+}
+
+main section:hover{
+    transform: scale(1.05);
 }
 
 @keyframes invisible {
